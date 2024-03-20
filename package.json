@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a mock api server created with json server",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch ./database/data.json"
+  },
+  "author": "LWN",
+  "license": "MIT",
+  "dependencies": {
+    "@tanstack/react-query": "^5.27.5",
+    "axios": "^1.6.7",
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
